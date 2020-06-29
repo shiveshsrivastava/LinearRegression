@@ -41,7 +41,7 @@ print(x[10], Y[10])
 
 m = len(Y)
 
-for i in range(10000):
+for i in range(10000): #try changing the epochs to 100
     h = dataArr @ theta
     
     print(h.shape)
